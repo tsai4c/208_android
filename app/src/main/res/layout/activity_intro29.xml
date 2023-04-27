@@ -1,0 +1,64 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".introduuction.intro_1">
+
+    <ImageView
+        android:id="@+id/introback1"
+        android:layout_width="wrap_content"
+        android:layout_height="264dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/introback29" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:src="@drawable/intro29"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="280dp"
+        android:text="崔寶心Venessa"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="30dp"
+        android:text="2005/10/20"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:layout_marginTop="380dp"
+        android:text="我是一個外表冷靜樂觀，實則ㄎㄧㄤ到谷底的人，有時候會作一些傻事，跟我聊天的人的說我很好聊，只要你願意跟我聊下去，我可以讓話題源源不斷，有些朋友說我情商很高，雖然平常憨憨的，但是真正在處理事情也是很靠譜的。是個十足的吃貨，身上基本上都會有食物（除非沒錢了），想找我聊天隨時歡迎，但有時候會當起網路神隱少女，聊一聊就人間蒸發請見諒。\nig：nhqf_bao"
+        android:textSize="24dp" />
+
+</RelativeLayout>

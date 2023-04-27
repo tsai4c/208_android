@@ -1,0 +1,64 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".introduuction.intro_1">
+
+    <ImageView
+        android:id="@+id/introback1"
+        android:layout_width="wrap_content"
+        android:layout_height="264dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/introback28" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:src="@drawable/intro28"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="280dp"
+        android:text="林庭羽Tina"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="30dp"
+        android:text="2006/1/18"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:layout_marginTop="380dp"
+        android:text="大家好，我是林庭羽，我是魔羯座，出生於2006/01/18，我的興趣是追劇、追星、看小說，我最喜歡的女明星是趙麗穎，男明星是楊洋，男團是TNT，我很固執、懶惰，也很消極、也欠缺幽默感，要求很多，缺點很多，但在危急時表現甚佳。不善外交，小心而保守。雖然速度比別人差一點，但因不斷的努力而能達到最後目標。"
+        android:textSize="24dp" />
+
+</RelativeLayout>

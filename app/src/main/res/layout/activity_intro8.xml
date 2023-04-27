@@ -1,0 +1,80 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".introduuction.intro_1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/introback1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="264dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/introback8" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginEnd="100dp"
+                    android:src="@drawable/intro8"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="3dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="280dp"
+                    android:text="張喆崴Louis"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="280dp"
+                    android:layout_marginEnd="30dp"
+                    android:text="2006/6/5"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="center"
+                    android:layout_marginTop="380dp"
+                    android:text="我是一個很樂觀的人，做任何事都全力以赴，即便失敗了也不會氣餒，從中檢討失敗的原因，不再犯一樣的錯誤。俗話說：「世界上每個人都在追求快樂，而一個人快樂與否，取決於你對各事物抱持的態度和看法。」我深信不疑，所以我都保持一顆正向的心，去看待每一件事物。很榮幸在高一下擔任班長，雖然常常要集合、處理班級事務，但我很高興能為班上服務，增加我的領導能力。在課餘時，我喜歡到機場或航道看飛機，對我來說，看到一架飛機降落，象徵成功的機會來了，要好好把握；看到一架飛機起飛，象徵我的夢想被帶到天空中，只要再多努力，一定能實現。「機會永遠留給準備好的人。」而我時常透過聽音樂緩解情緒、減輕壓力，對我來說，聽音樂能讓我身心靈放鬆，達到舒緩的效果。\n💗🇰🇷🇰🇷🇰🇷💗\n\n"
+                    android:textSize="24dp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".introduuction.intro_1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/introback1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="264dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/introback2" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginEnd="100dp"
+                    android:src="@drawable/intro2"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="3dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="280dp"
+                    android:text="江竑燁Vincent"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="280dp"
+                    android:layout_marginEnd="30dp"
+                    android:text="2006/5/23"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="379dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="center"
+                    android:text="我相信透過努力和堅持可以達到很高的目標。我寫很多種程式語言，最精通的是JAVA，平常會在hackerrank和leetcode上練習。我是機器人研究社的社長，在團隊領導方面有豐富的經驗。在我的下一步人生目標中，我想成為一名軟體工程師，尤其是APPLE的軟體工程師。我希望能夠在這個領域中繼續探索新的技術和方法，並建立自己的軟體產品。此外，我還是一個音樂愛好者。我會拉大提琴和彈鋼琴，喜歡在空閒時聽音樂，感受不同的音樂風格。我相信音樂會帶給我們無限的樂趣和感動，也是我放鬆心情的好方式。我是一個有求知慾、喜歡挑戰自己的人。我希望能夠在不斷努力和學習的過程中，不斷發展自己的技能和能力，成為一名優秀的軟體工程師。\n\n I am a person who loves programming and has won many awards in various competitions. I have participated in FRC and hope to participate in WWDC23 this year. I am proficient in various programming languages, with a special focus on JAVA. I also enjoy music and play the cello and piano in my spare time. My ultimate goal is to become a software engineer, especially at APPLE. I have achieved the gold star ranking on hackerrank and have completed 15 questions on leetcode. I have extensive experience in leading teams as the president of the robotics club./n  I believe that through hard work and determination, one can achieve high goals. In addition to programming, I am also passionate about music and enjoy listening to various genres in my free time. Music brings endless joy and emotion to my life and is a great way for me to relax. Overall, I am a curious and ambitious person who is always looking to challenge myself and improve my skills. I hope to continue learning and developing as a software engineer, striving to be the best that I can be.\n\n"
+                    android:textSize="24dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

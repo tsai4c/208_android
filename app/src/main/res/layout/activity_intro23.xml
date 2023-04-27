@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".introduuction.intro_1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/introback1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="264dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/introback23" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginEnd="100dp"
+                    android:src="@drawable/intro23"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="3dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="280dp"
+                    android:text="簡新城Ben"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="280dp"
+                    android:layout_marginEnd="30dp"
+                    android:text="2005/9/28"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="center"
+                    android:layout_marginTop="380dp"
+                    android:text="我是個在假日平時不怎麼出門，平日跟假日過的剛好相反的人，在假日反而沒事做就在打code \n，目前在玩貓咪大戰爭及其模組、FGO(我是在寶底才抽到腳色的非酋)、元氣騎士(平時沒網路)、純白和弦(浠其實蠻香的)。FGO、貓站、元氣盡乎全破。 \n我生處次文化，能回答有關各種次元的問題[異次元、元宇宙、動漫次元(二次元)]，沒有特別的Vtuber喜好，但絕不是DD，而是守護世界和平的一員，此外，雖說動漫界老婆老公無數，每隔幾月就多了一兩個伴侶也算正常，但實際上也沒錢買周邊(沒錢)。 \n程式能力還不錯(是個在資訊剛要做期末報告時，打130行程式還不滿足的辣個男人，目標是打完200行，且讓它成為讓喜歡亂輸入的人也會變乖的終極程式)，在班上因該算有排名，老師剛出作業寫完就Po在Gmail，意義不好在此說明；而我也是個十足的工具人，不管或大或小的問題各種人都會問我，譬如做我左邊的那個媽寶。\n\n"
+                    android:textSize="24dp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".introduuction.intro_1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/introback1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="264dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/introback19" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginEnd="100dp"
+                    android:src="@drawable/intro19"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="3dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="280dp"
+                    android:text="蔡王竤Jimmy"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="280dp"
+                    android:layout_marginEnd="30dp"
+                    android:text="2006/6/7"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="center"
+                    android:layout_marginTop="380dp"
+                    android:text="大家好，我是蔡王竤。幼稚園大班曾到新加坡去讀書，到國小五年級結束後才回到台灣。我平常喜歡到處去看風景或是球賽，並將在現場每一個重要的瞬間紀錄下來。我也很喜歡打羽球，是成長過程中最早接觸到的球類運動，如果場地允許的話，我也很樂意和朋友打羽球。\n\nHello everyone, this is Jimmy Tsai speaking. To introduce myself,  I would like to start from the journey of my education. When I was in kindergarten  2, my parents brought my and my sister to Singapore to learn English. This educational journey occurred outside Taiwan ended when I was in grade 5, I returned to Taiwan and started junior high school. I personally like to look at fascinating scenery or watch exciting basketball matches, and capture every remarkable moment. Out of all kinds of sports, my most favorite one is badminton.\n\n"
+                    android:textSize="24dp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>

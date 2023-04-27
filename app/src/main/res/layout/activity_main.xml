@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="412dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    tools:context=".MainActivity">
+
+    <com.denzcoskun.imageslider.ImageSlider
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/imageSlider"
+            app:iss_period="1000"
+            app:iss_auto_cycle="true"
+            app:iss_corner_radius="30"
+            app:iss_title_background="@drawable/gradient">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="@color/trans"
+            app:cardCornerRadius="100dp"
+            app:cardElevation="100dp" />
+    </com.denzcoskun.imageslider.ImageSlider>
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="208"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <Button
+        android:id="@+id/introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/button_style"
+        android:textColor="@color/silver"
+        android:text=" introduction " />
+
+    <Button
+        android:id="@+id/awards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/button_style"
+        android:textColor="@color/snow"
+        android:text="awards" />
+
+    <Button
+        android:id="@+id/activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/button_style"
+        android:textColor="@color/snow"
+        android:text="Activity" />
+
+    <Button
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/button_style"
+        android:textColor="@color/snow"
+        android:text="Website" />
+
+    <ImageButton
+        android:id="@+id/nhsh"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/trans"
+        android:scaleType="fitCenter"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/nhsh" />
+
+</RelativeLayout>
